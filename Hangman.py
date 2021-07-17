@@ -18,7 +18,7 @@ def Play(live, alphabet_dict : dict, space : dict, word_dict : dict):
     print(' '+''.join(list(space.values()))+' {} letter left'.format(left))
     print(' '.join(list(alphabet_dict.values())[0:10]))
     print(' '+' '.join(list(alphabet_dict.values())[10:19]))
-    print('  '+' '.join(list(alphabet_dict.values())[19:26]))
+    print('  '+' '.join(list(alphabet_dict.values())[19:]))
     guess = input('Enter the Letter : ')
     alphabet_dict[guess] = '_'
     if len(guess) != 1:
